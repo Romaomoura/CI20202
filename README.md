@@ -1,3 +1,23 @@
+# Projeto Github Actions
+
+Integração continua - ESII - Unijuazeiro
+
+# Scripts disponiveis
+
+Pode ser executado na raiz do projeto:
+
+### `npm start`
+
+Para executar a ação no modo desenvolvimento.
+Acesse [http://localhost:3000](http://localhost:3000) visualizar no navegador.
+
+A página deverá recarregar a cada edição.
+Você também poderá ver erros de lint no console.
+
+// TODO traduzir a partir daqui.
+
+### `npm test`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
