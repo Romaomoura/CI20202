@@ -4,6 +4,10 @@ on:
   pull_request:
     branches:
       - master
+  push:
+    branches:
+      - master
+
 jobs:
   build:
     runs-on: ubuntu-20.04
@@ -23,3 +27,7 @@ jobs:
         run: npm test -- --coverage
         env:
           CI: true
+          
+      - name: build project
+        if: github.event_name == 'push'
+        run: npm run build
