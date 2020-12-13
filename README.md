@@ -4,12 +4,12 @@ Integração continua - ESII - Unijuazeiro
 
 ## Tarefas a serem implementadas no CI
 
-- [] fazer o checkout do projeto no CI
-- [] fazer a configuração do ambiente (versaão do node e instalação das dependencias)
-- [] executar os testes
-- [] quando enviado para o master, fazer o build do projeto
-- [] disponibilizar o relatorio de combertura de testes e build ao fim do workflow
-- [] quando enviado para o master, fazer a implantação do projeto no ci2020-romaomoura.surge.sh
+- [x] fazer o checkout do projeto no CI
+- [x] fazer a configuração do ambiente (versaão do node e instalação das dependencias)
+- [x] executar os testes
+- [x] quando enviado para o master, fazer o build do projeto
+- [x] disponibilizar o relatorio de combertura de testes e build ao fim do workflow
+- [x] quando enviado para o master, fazer a implantação do projeto no [link](http://ci2020-romaomoura.surge.sh)
 
 # Scripts disponiveis
 
